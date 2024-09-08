@@ -1,0 +1,96 @@
+/* General styles */
+body {
+  background-image: url("https://i.imgur.com/uZAfH5X.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Glassy effect for cards */
+.glassy {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  display: grid;
+  padding-right: 40px;
+  margin-right: 30px;
+  color: rgba(0, 0, 0, 0.6);
+
+  backdrop-filter: blur(10px) brightness(0.9);
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  align-items: center;
+  max-width: 400px;
+  box-shadow: 10px 10px 40px 10px rgba(221, 217, 217, 0.507);
+  color: black;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.glassy:hover {
+  transform: scale(1.05);
+}
+
+/* Glassy effect for cards */
+.glassy {
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Semi-transparent border */
+  border-radius: 12px;
+  backdrop-filter: blur(10px); /* Glassy blur effect */
+  padding: 20px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.glassy:hover {
+  transform: scale(1.05);
+}
+
+.card-title {
+  color: aliceblue;
+}
+
+.card-title:hover {
+  color: #e4109d;
+}
+
+.card-text a {
+  color: white;
+  text-decoration: none;
+}
+
+.card-text a:hover {
+  color: #e4109d;
+}
+
+.card-img-top {
+  border-radius: 8px 8px 0 0;
+  transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+  transform: scale(1.1);
+}
+
+/* Custom background for navbar */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent navbar */
+}
+
+/* Responsive styling for mobile and tablet */
+@media (max-width: 576px) {
+  .glassy {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+/* For tablet devices */
+@media (max-width: 768px) {
+  .glassy {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}

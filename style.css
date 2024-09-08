@@ -1,0 +1,107 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+
+  background-image: url(https://i.imgur.com/uZAfH5X.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container-fluid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  margin-top: 0;
+  background: rgba(3, 3, 3, 0.226);
+
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+.navbar-expand {
+  position: fixed;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.header img {
+  width: 40px;
+  margin-right: 10px;
+}
+.menu {
+  display: flex;
+  gap: 20px;
+  margin-left: auto;
+}
+.menu i {
+  font-size: 20px;
+}
+
+.song {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  align-items: start;
+}
+.song img {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.song-info {
+  flex-grow: 1;
+}
+
+.name {
+  color: aliceblue;
+  padding: 50px 50px 0 60px;
+}
+.controls {
+  display: flex;
+  gap: 10px;
+}
+.controls i {
+  cursor: pointer;
+  font-size: 20px;
+  justify-content: space-between;
+  color: antiquewhite;
+  padding: 10px 5px;
+  padding-left: 20px;
+}
+
+.song img {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.song-info h3 {
+  margin: 0;
+  font-size: 18px;
+  color: beige;
+  transition: color 0.3s ease;
+}
+.song-info h3:hover {
+  color: #e4109d;
+}
+.song-info p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.container-custom {
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 100px;
+}
